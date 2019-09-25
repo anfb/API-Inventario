@@ -13,5 +13,4 @@ What you will need to run this project
 
 ## Configuration Tutorial
 
-https://docs.google.com/document/d/1UhXzT7JCYC4buUDQ2cyjn2bxz73flxtWRevNdvY2uJo/edit?usp=sharing - automatic!
 [Configuration_Tutorial](https://docs.google.com/document/d/1UhXzT7JCYC4buUDQ2cyjn2bxz73flxtWRevNdvY2uJo/edit?usp=sharing)

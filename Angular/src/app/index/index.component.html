@@ -1,0 +1,43 @@
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-info rounded box-shadow">
+      <div class="col-md-10">
+        <div class="lh-100">
+          <h4 class="mb-0 text-white lh-100">lista dos equipamentos cadastrados</h4>
+        </div>
+      </div>
+      <div class="col-md-2 text-right">
+        <div class="btn-group">
+          <button type="button" class="btn btn-lg btn-outline-light" routerLink="new">New</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of Produtos">
+        <div class="card mb-4 box-shadow">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100"
+                  [src]="_DomSanitizer.bypassSecurityTrustUrl(item.imageEquipment)"
+                  height="300" alt="Primeiro Slide">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{item.typeEquipment}}</p>
+            <p class="card-text">{{item.modelEquipment}}</p>
+            <p class="card-text">{{item.dtEquipment}}</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="text-primary">{{item.valEquipment}}</p>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" (click)=showEquipment(item.codeEquipment)>Show</button>
+                <button type="button" class="btn btn-sm btn-outline-danger" (click)="delete(item)">Remove</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
