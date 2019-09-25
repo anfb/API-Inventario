@@ -18,6 +18,6 @@ What you will need to run this project
 Advanced system settings> System Properties> Environment Variables
 
 ```
-![alt text](https://drive.google.com/file/d/1ch9VpRUE4ZVTOssyCKwhw1ssCYEtZBpU/view?usp=sharing)
+![alt text](https://drive.google.com/file/d/1ch9VpRUE4ZVTOssyCKwhw1ssCYEtZBpU/view?usp=sharing/to/img.png)
 
 ```
