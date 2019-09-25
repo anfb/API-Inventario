@@ -2,7 +2,7 @@
 
 Microservice to manage equipments 
 
-## Configuration Tutorial
+## Getting Started 
 
 What you will need to run this project
 * JDK 8
@@ -11,13 +11,7 @@ What you will need to run this project
 * Node v10.16
 * Eclipse (Photon, oxygen or 2019) 
 
-## Back-end configuration
+## Configuration Tutorial
 
-### Configure Environment variables
-
-Advanced system settings> System Properties> Environment Variables
-
-```
-![alt text](https://drive.google.com/file/d/1ch9VpRUE4ZVTOssyCKwhw1ssCYEtZBpU/view?usp=sharing/to/img.png)
-
-```
+https://docs.google.com/document/d/1UhXzT7JCYC4buUDQ2cyjn2bxz73flxtWRevNdvY2uJo/edit?usp=sharing - automatic!
+[Configuration_Tutorial](https://docs.google.com/document/d/1UhXzT7JCYC4buUDQ2cyjn2bxz73flxtWRevNdvY2uJo/edit?usp=sharing)
